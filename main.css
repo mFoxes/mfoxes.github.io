@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Suez+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #000;
+    font-family: trebuchet ms, sans-serif;
+}
+
+/*------------------------*/
+
+
+#top {
+    width: 100%;
+    height: 100vh;
+    background-image: url(http://iwallpapers2.free.fr/images/Photographie/Black_Collection/Magnifique_fond_ecran_Espace_-_Black_Collection.jpg);
+    background-blend-mode: multiply;
+    background-color: #595959;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    font-size: 2.5em;
+
+}
+
+#top h1 {
+    padding-top: 20%
+}
+
+#top h3 {
+    color: #fff;
+}
+
+
+/*who are we*/
+
+#whoarewe {
+    width: 100%;
+    height: 45vh;
+    background-color: #0f0f0f;
+    background-size: cover;
+    color: #FFF;
+    float: left;
+}
+
+#left {
+    position: absolute;
+    top: 115vh;
+    left: 10%;
+    width: 40%;
+    float: left;
+    font-size: 1.5em;
+}
+
+#right {
+    position: absolute;
+    left: 52%;
+    width: 40%;
+    top: 115vh;
+    font-size: 1.5em;
+}
+
+#whoarewe h1 {
+    position: absolute;
+    top: 108vh;
+    left: 13%;
+    font-size: 3.5em;
+}
+
+@media (min-width: 1401px) {
+    #whoarewe h1 {
+        font-size: 3.5em;
+    }
+
+    #left {
+        font-size: 1.5em;
+    }
+
+    #right {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 1400px) {
+    #whoarewe h1 {
+        font-size: 2.5em;
+    }
+
+    #left {
+        font-size: 1em;
+    }
+
+    #right {
+        font-size: 1em;
+    }
+}
+
+
+/*------------------------*/
+
+#goal {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+
+
+}
+
+#goal h1 {
+    position: relative;
+    top: 10vh;
+    width: 60%;
+    left: 13%;
+    font-size: 3.5em;
+}
+
+#avg1 svg {
+    left: 16%;
+    position: absolute;
+    top: 165vh;
+}
+
+#avg1 div {
+    position: absolute;
+    top: 167vh;
+    left: 22%;
+    font-size: 1.6em;
+}
+
+#avg2 svg {
+    left: 16%;
+    position: absolute;
+    top: 175vh;
+}
+
+#avg2 div {
+    position: absolute;
+    top: 177vh;
+    left: 22%;
+    font-size: 1.6em;
+}
+
+#avg3 svg {
+    left: 16%;
+    position: absolute;
+    top: 185vh;
+}
+
+#avg3 div {
+    position: absolute;
+    top: 187vh;
+    left: 22%;
+    font-size: 1.6em;
+}
+
+@media (min-width: 1401px) {
+    #goal h1 {
+        font-size: 3.5em;
+    }
+
+    #avg1 div {
+        font-size: 1.6em;
+    }
+
+    #avg2 div {
+        font-size: 1.6em;
+    }
+
+    #avg3 div {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 1400px) {
+    #goal h1 {
+        font-size: 2.5em;
+    }
+
+    #avg1 div {
+        font-size: 1.4em;
+    }
+
+    #avg2 div {
+        font-size: 1.4em;
+    }
+
+    #avg3 div {
+        font-size: 1.4em;
+    }
+}
+
+/*------------------------*/
+
+#advantages {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://pbs.twimg.com/media/CwHB_XnUIAELFCu.jpg);
+    background-blend-mode: multiply;
+    background-color: #595959;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 1.6em;
+}
+
+#advantages h1 {
+    top: 15vh;
+    left: 41%;
+    width: 50%;
+    color: #fff;
+    position: relative;
+}
+
+.block1 {
+    width: 15%;
+    height: 30vh;
+    background: #fff;
+    padding: 5px;
+    position: relative;
+    float: left;
+    top: 23%;
+    left: 25%;
+    text-align: center;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.block2 {
+    width: 15%;
+    height: 40vh;
+    background: #fff;
+    padding: 5px;
+    float: left;
+    position: relative;
+    text-align: center;
+    top: 38%;
+    left: 27%;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.block3 {
+    width: 15%;
+    height: 30vh;
+    background: #fff;
+    padding: 5px;
+    float: left;
+    position: relative;
+    text-align: center;
+    top: 23%;
+    left: 29%;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media(min-width: 1001px) {
+    #advantages {
+        font-size: 1.6em;
+    }
+
+    .block1 {
+        height: 40vh;
+    }
+
+    .block2 {
+        height: 40vh;
+    }
+
+    .block3 {
+        height: 40vh;
+    }
+}
+
+
+
+/*------------------------*/
+
+
+
+#howitworks {
+    width: 100%;
+    height: 70vh;
+    background-color: #f5f6ff;
+    background-size: cover;
+}
+
+#howitworks h1 {
+    font-size: 3em;
+    top: 15%;
+    left: 40%;
+    width: 40%;
+    position: relative;
+}
+
+#hvg1 {
+    position: absolute;
+    top: 323vh;
+    left: 15%;
+}
+
+#hvg2 {
+    position: absolute;
+    top: 323vh;
+    left: 35%;
+}
+
+#hvg3 {
+    position: absolute;
+    top: 323vh;
+    left: 55%;
+}
+
+#hvg4 {
+    position: absolute;
+    top: 323vh;
+    left: 75%;
+}
+
+#follow1 {
+    position: absolute;
+    top: 325vh;
+    left: 25%;
+}
+
+#follow2 {
+    position: absolute;
+    top: 325vh;
+    left: 45%;
+}
+
+#follow3 {
+    position: absolute;
+    top: 325vh;
+    left: 65%;
+}
+
+#hiw1 h5 {
+    position: absolute;
+    text-align: center;
+    font-size: 1.6em;
+    top: 343vh;
+    left: 11%;
+    width: 15%;
+}
+
+#hiw2 h5 {
+    position: absolute;
+    text-align: center;
+    font-size: 1.6em;
+    top: 343vh;
+    left: 31%;
+    width: 15%;
+}
+
+#hiw3 h5 {
+    position: absolute;
+    text-align: center;
+    font-size: 1.6em;
+    top: 343vh;
+    left: 51%;
+    width: 15%;
+}
+
+#hiw4 h5 {
+    position: absolute;
+    text-align: center;
+    font-size: 1.6em;
+    top: 343vh;
+    left: 71%;
+    width: 15%;
+}
+
+
+/*------------------------*/
+
+
+#provision {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://w.wallhaven.cc/full/lm/wallhaven-lmd9dl.jpg);
+    background-blend-mode: multiply;
+    background-color: #595959;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-size: 2.5em;
+    background-attachment: fixed;
+}
+
+
+#provision h1 {
+    top: 25vh;
+    position: relative;
+    text-align: center;
+}
+
+#provision h5 {
+    top: 45vh;
+    position: relative;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+
+#psg {
+    text-align: center;
+    top: 410vh;
+    left: 48%;
+    position: absolute;
+}
+
+
+/*------------------------*/
+
+
+#whatisnext {
+    width: 100%;
+    height: 55vh;
+    background-color: #fff;
+}
+
+#whatisnext h1 {
+    position: relative;
+    top: 10vh;
+    width: 60%;
+    left: 13%;
+    font-size: 3.5em;
+}
+
+#wvg1 svg {
+    left: 16%;
+    position: absolute;
+    top: 495vh;
+}
+
+#wvg1 div {
+    position: absolute;
+    top: 497vh;
+    left: 22%;
+    font-size: 1.6em;
+}
+
+#wvg2 svg {
+    left: 16%;
+    position: absolute;
+    top: 505vh;
+}
+
+#wvg2 div {
+    position: absolute;
+    top: 507vh;
+    left: 22%;
+    font-size: 1.6em;
+}
+
+
+/*------------------------*/
+
+
+#contacts {
+  width: 100%;
+  float: left;
+  padding-bottom: 40px;
+  padding-top: 70px;
+  border-top: 4px solid #ccc;
+  background: #f4f4f4;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: lighter;
+}
+
+#contacts h5 {font-size: 3em; color: #4f4f4f}
+
+#form_input {
+  margin-top: 15px;
+  font-size: 1.1em;
+}
+
+@media (min-width: 1051px) {
+  #form_input {
+    width: 35%;
+    margin-left: 38%;
+  }
+}
+
+@media (max-width: 1050px) {
+  #form_input {
+    width: 90%;
+    margin-left: 10%;
+  }
+}
+
+#form_input label {
+  color: #505050;
+  cursor: pointer;
+  font-size: 1.4em;
+}
+
+#form_input label > span {
+  color: #e87e7e;
+}
+
+#form_input input,#form_input textarea {
+  margin-bottom: 10px;
+  width: 70%;
+  padding: 10px 2%;
+  border-radius: 7px;
+  border: 2px solid silver;
+  font-size: 0.9em;
+  color: #4a4a4a;
+}
+
+#form_input input:focus, #form_input textarea:focus {
+  border-color: #333;
+}
+
+.btn {
+  float: left;
+  border-radius: 5px;
+  padding: 5px 9px;
+  font-size: 1.2em;
+  background-color: #ec6550;
+  text-shadow: #454545 0 0 2px;
+  cursor: pointer;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #c15443;
+}
