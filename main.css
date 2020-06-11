@@ -43,7 +43,7 @@ body {
 }
 
 
-/*who are we*/
+/*------------------------*/
 
 #whoarewe {
     width: 100%;
@@ -92,17 +92,34 @@ body {
     }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1400px) and (min-width: 1001px) {
+    #whoarewe h1 {
+        font-size: 2.8em;
+    }
+
+    #left {
+        font-size: 1.1em;
+    }
+
+    #right {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 1000px) {
     #whoarewe h1 {
         font-size: 2.5em;
+        top: 103vh;
     }
 
     #left {
         font-size: 1em;
+        top: 110vh;
     }
 
     #right {
         font-size: 1em;
+        top: 110vh;
     }
 }
 
@@ -182,7 +199,7 @@ body {
     }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1400px) and (min-width: 1001px) {
     #goal h1 {
         font-size: 2.5em;
     }
@@ -197,6 +214,36 @@ body {
 
     #avg3 div {
         font-size: 1.4em;
+    }
+}
+
+@media (max-width: 1000px) {
+    #goal h1 {
+        font-size: 2.4em;
+    }
+
+    #avg1 div {
+        font-size: 1.2em;
+    }
+
+    #avg2 div {
+        font-size: 1.2em;
+    }
+
+    #avg3 div {
+        font-size: 1.2em;
+    }
+
+    #avg1 svg {
+        left: 14%;
+    }
+
+    #avg2 svg {
+        left: 14%;
+    }
+
+    #avg3 svg {
+        left: 14%;
     }
 }
 
@@ -215,8 +262,7 @@ body {
 
 #advantages h1 {
     top: 15vh;
-    left: 41%;
-    width: 50%;
+    text-align: center;
     color: #fff;
     position: relative;
 }
@@ -269,7 +315,7 @@ body {
     flex-direction: column;
 }
 
-@media(min-width: 1001px) {
+@media(max-width: 1400px) and (min-width: 1001px) {
     #advantages {
         font-size: 1.6em;
     }
@@ -287,6 +333,23 @@ body {
     }
 }
 
+@media (max-width: 1000px) {
+    #advantages {
+        font-size: 1.2em;
+    }
+
+    .block1 {
+        height: 40vh;
+    }
+
+    .block2 {
+        height: 40vh;
+    }
+
+    .block3 {
+        height: 40vh;
+    }
+}
 
 
 /*------------------------*/
@@ -303,8 +366,7 @@ body {
 #howitworks h1 {
     font-size: 3em;
     top: 15%;
-    left: 40%;
-    width: 40%;
+    text-align: center;
     position: relative;
 }
 
@@ -386,6 +448,46 @@ body {
     width: 15%;
 }
 
+@media(max-width: 1400px) and (min-width: 1001px) {
+    #howitworks h1 {
+        font-size: 2.5em;
+    }
+
+    #hiw1 h5 {
+        left: 13%;
+    }
+
+    #hiw2 h5 {
+        left: 33%;
+    }
+
+    #hiw3 h5 {
+        left: 53%;
+    }
+
+    #hiw4 h5 {
+        left: 73%;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    #howitworks h1 {
+        font-size: 2em;
+    }
+
+    #howitworks svg {
+        width: 5em;
+        height: 5em;
+    }
+
+    #howitworks h5 {
+        font-size: 1.3em;
+        width: 18%;
+    }
+}
+
+
 
 /*------------------------*/
 
@@ -421,10 +523,33 @@ body {
 #psg {
     text-align: center;
     top: 410vh;
-    left: 48%;
+    left: 47%;
     position: absolute;
 }
 
+@media (max-width: 1400px) and (min-width: 1001px) {
+    #provision h1 {
+        font-size: 2.2am;
+    }
+
+    #provision h5 {
+        font-size: 1.35am;
+    }
+}
+
+@media (max-width: 1000px) {
+    #provision h1 {
+        font-size: 2am;
+    }
+
+    #provision psg {
+        left: 41%;
+    }
+
+    #provision h5 {
+        font-size: 1.2am;
+    }
+}
 
 /*------------------------*/
 
@@ -469,79 +594,140 @@ body {
     font-size: 1.6em;
 }
 
+@media (min-width: 1401px) {
+    #whatisnext h1 {
+        font-size: 3.5em;
+    }
+
+    #wvg1 div {
+        font-size: 1.8em;
+    }
+
+    #wvg2 div {
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 1400px) and (min-width: 1001px) {
+    #whatisnext h1 {
+        font-size: 2.5em;
+    }
+
+    #wvg1 div {
+        font-size: 1.6em;
+    }
+
+    #wvg2 div {
+        font-size: 1.6em;
+    }
+
+
+}
+
+@media (max-width: 1000px) {
+    #whatisnext h1 {
+        font-size: 2.4em;
+    }
+
+    #wvg1 div {
+        font-size: 1.4em;
+    }
+
+    #wvg2 div {
+        font-size: 1.4em;
+    }
+
+    #wvg1 svg {
+        left: 14%;
+    }
+
+    #wvg2 svg {
+        left: 14%;
+    }
+}
+
 
 /*------------------------*/
 
 
 #contacts {
-  width: 100%;
-  float: left;
-  padding-bottom: 40px;
-  padding-top: 70px;
-  border-top: 4px solid #ccc;
-  background: #f4f4f4;
+    width: 100%;
+    float: left;
+    padding-bottom: 40px;
+    padding-top: 70px;
+    border-top: 4px solid #ccc;
+    background: #f4f4f4;
 }
 
-h1, h2, h3, h4, h5 {
-  font-weight: lighter;
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: lighter;
 }
 
-#contacts h5 {font-size: 3em; color: #4f4f4f}
+#contacts h5 {
+    font-size: 3em;
+    color: #4f4f4f
+}
 
 #form_input {
-  margin-top: 15px;
-  font-size: 1.1em;
+    margin-top: 15px;
+    font-size: 1.1em;
 }
 
 @media (min-width: 1051px) {
-  #form_input {
-    width: 35%;
-    margin-left: 38%;
-  }
+    #form_input {
+        width: 35%;
+        margin-left: 38%;
+    }
 }
 
 @media (max-width: 1050px) {
-  #form_input {
-    width: 90%;
-    margin-left: 10%;
-  }
+    #form_input {
+        width: 90%;
+        margin-left: 10%;
+    }
 }
 
 #form_input label {
-  color: #505050;
-  cursor: pointer;
-  font-size: 1.4em;
+    color: #505050;
+    cursor: pointer;
+    font-size: 1.4em;
 }
 
 #form_input label > span {
-  color: #e87e7e;
+    color: #e87e7e;
 }
 
-#form_input input,#form_input textarea {
-  margin-bottom: 10px;
-  width: 70%;
-  padding: 10px 2%;
-  border-radius: 7px;
-  border: 2px solid silver;
-  font-size: 0.9em;
-  color: #4a4a4a;
+#form_input input,
+#form_input textarea {
+    margin-bottom: 10px;
+    width: 70%;
+    padding: 10px 2%;
+    border-radius: 7px;
+    border: 2px solid silver;
+    font-size: 0.9em;
+    color: #4a4a4a;
 }
 
-#form_input input:focus, #form_input textarea:focus {
-  border-color: #333;
+#form_input input:focus,
+#form_input textarea:focus {
+    border-color: #333;
 }
 
 .btn {
-  float: left;
-  border-radius: 5px;
-  padding: 5px 9px;
-  font-size: 1.2em;
-  background-color: #ec6550;
-  text-shadow: #454545 0 0 2px;
-  cursor: pointer;
-  color: white;
+    float: left;
+    border-radius: 5px;
+    padding: 5px 9px;
+    font-size: 1.2em;
+    background-color: #ec6550;
+    text-shadow: #454545 0 0 2px;
+    cursor: pointer;
+    color: white;
 }
 
 .btn:hover {
-  background-color: #c15443;
+    background-color: #c15443;
 }
